@@ -1,9 +1,11 @@
 {
-    "model_name": "LOGOS-44-Z0",
-    "author": "slowomir33-arch",
-    "final_loss": 0.9377,
-    "model_size_mb": 8.88,
-    "architecture": "Coherence Lattice CL-44 (Holographic Weight Sharing)",
-    "hardware_used": "TPU v5e (Google Cloud)",
-    "training_time_seconds": 1453
+  "author": "slowomir33-arch",
+  "github_id": "slowomir33-arch",
+  "name": "LOGOS-44 Z=0 Coherence Field Decoder (Quantum Edition)",
+  "blurb": "Iterative-routing micro-LLM: 44 passes through a single toroidal bottleneck with CDMA field decoder. ~300k trainable params, 1.2 MB artifact. Quantum seed from IBM ibm_fez (48 qubit collapse). Byte+archetype tokenizer (512 vocab). Coherence gate mixes field signal with residual.",
+  "date": "2026-03-28T00:00:00Z",
+  "val_loss": null,
+  "val_bpb": null,
+  "bytes_total": 1224685,
+  "note": "val_bpb pending — requires FineWeb validation evaluation on 8xH100. This is an experimental architecture submission."
 }
